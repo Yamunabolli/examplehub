@@ -1,0 +1,146 @@
+.img{
+    background-image: url("https://hubble.miraclesoft.com/assets/img/bg-login.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+#boxPosition{
+    
+    background-color: white;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 496px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 5px;
+    left: 16px;
+    font-size: 18px;
+    color: white;
+    line-break: loose;
+  }
+ .label{
+
+    background: rgb(234, 239, 240);
+    color: #575757cc !important;
+    border-radius: 1px !important;
+    height: 84px !important;
+    padding: 7px 12px 4px;
+    width: 120%;
+    border: 0 solid rgba(0,0,0,.07);
+    margin-top: 20px;
+    border-radius: 10%;
+ }
+ .label1{
+    background: rgb(234, 239, 240);
+    color: #575757cc !important;
+    border-radius: 1px !important;
+    height: 84px !important;
+    padding: 7px 12px 4px;
+    width: 120%;
+    border: 0 solid rgba(0,0,0,.07);
+    margin-top: 20px;
+    border-radius: 10%;
+
+ }
+ .imgCard{
+    width:200px;
+    height:50px;
+    margin-left:-10px !important;
+
+ }
+ p.h5 {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 0px;
+    margin: 0 0 10px;
+    font-style: normal;
+    white-space: normal;
+}
+.input{
+    width: 100%;
+    height: 200%;
+    /* border: none !important; */
+    border-style: none;
+}
+input:focus {
+    background-color: rgb(249, 246, 255);
+    outline: none;
+
+  }
+
+
+  input.input.form-control {
+    font-weight: lighter;
+}
+a.link.nav-link {
+    color: #00aae7!important;
+}
+.form{
+    align-items: center;
+    margin-top: 0%;
+    margin-right: 1cm;
+}
+.font{
+    font-weight:lighter;
+    font-size:32px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.submitButton{
+  background-color: rgb(53, 188, 250);
+  /* border: none;
+  height:30px;
+  width: 80px; */
+  color: white;
+  
+}
+.center{
+    justify-content: center;
+}
+h5.h5 {
+    font-weight: lighter;
+}
+h5 {
+    font-weight: lighter;
+    margin-top: -6px;
+}
+#inputGroup-sizing-lg{
+
+border: none;
+
+}
+.mb-3
+{
+    
+border: none;
+border-color: white;
+outline: none;
+
+
+}
+.inn{
+    border: none;
+}
+@media   (min-width:480px) and (max-width:924px){
+.img{
+    background:none;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+}
+/* button.submitButton.btn.btn-primary {
+    margin-right: 130px;
+} */

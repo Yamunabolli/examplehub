@@ -1,0 +1,43 @@
+/* .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+} */
+.cardyy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.userbio.input-group {
+    height: 3cm;
+    width: 5cm;
+}
+
+.input-group {
+    position: unset;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    /* width: 100%; */
+}
+.form-control {
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.mb-2.input-group {
+    width: fit-content;
+}

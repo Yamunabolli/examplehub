@@ -1,0 +1,45 @@
+.App{
+  overflow: hidden;
+
+}
+button#sidebtn {
+  background-color: unset;
+  border: none;
+}
+a#basic-nav-dropdown {
+  MARGIN-LEFT: 26CM;
+}
+.dropdown-menu.show {
+  margin-left: 26cm;
+}
+.cardyy.card {
+  border: unset;
+  margin-top: 102px;
+
+}
+/* .me-auto{
+  display: flex;
+;
+} */
+.me-auto.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+img#mrclimg {
+  height: 29px;
+  width: 95px;
+  margin-left: -122px;
+  margin-bottom: 12px;
+}
+
+@media  (min-width:890px) and (max-width:1324px) {
+  img#mrclimg{
+    margin-left: -82px;
+    margin-bottom: 12px;
+  }
+  }
+@media  (min-width:390px) and (max-width:1024px) {
+img#mrclimg{
+display: none;
+}
+}
