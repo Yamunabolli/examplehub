@@ -11,8 +11,6 @@ const [user,setUser]=useState("")
 function add()
 {
 setUse("vandhana")
-
-
 }
 
 
